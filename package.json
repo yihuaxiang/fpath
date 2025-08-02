@@ -1,0 +1,24 @@
+{
+  "name": "fpath",
+  "version": "1.0.0",
+  "description": "获取文件的绝对路径的命令行工具",
+  "main": "index.js",
+  "bin": {
+    "fpath": "./bin/fpath.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "path",
+    "absolute",
+    "file",
+    "cli",
+    "command-line"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+} 
