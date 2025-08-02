@@ -1,11 +1,11 @@
-# file-path
+# get-path-of-file
 
 一个简单的命令行工具，用于获取文件的绝对路径。
 
 ## 安装
 
 ```bash
-npm install -g file-path
+npm install -g get-path-of-file
 ```
 
 ## 使用方法
@@ -13,26 +13,26 @@ npm install -g file-path
 ### 命令行使用
 
 ```bash
-file-path ./file
+fpath ./file
 ```
 
 ### 示例
 
 ```bash
 # 获取当前目录下 package.json 的绝对路径
-file-path ./package.json
+fpath ./package.json
 
 # 获取上级目录文件的绝对路径
-file-path ../README.md
+fpath ../README.md
 
 # 获取绝对路径
-file-path /Users/username/project/file.txt
+fpath /Users/username/project/file.txt
 ```
 
 ### 编程接口
 
 ```javascript
-const { getAbsolutePath } = require('file-path');
+const { getAbsolutePath } = require('get-path-of-file');
 
 try {
   const absolutePath = getAbsolutePath('./file.txt');

@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 
 program
-  .name('file-path')
+  .name('get-path-of-file')
   .description('获取文件的绝对路径')
   .version('1.0.0')
   .argument('<file>', '文件路径')

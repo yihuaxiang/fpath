@@ -1,10 +1,10 @@
 {
-  "name": "file-path",
+  "name": "get-path-of-file",
   "version": "1.0.0",
   "description": "获取文件的绝对路径的命令行工具",
   "main": "index.js",
   "bin": {
-    "file-path": "./bin/fpath.js"
+    "fpath": "./bin/get-path-of-file.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
